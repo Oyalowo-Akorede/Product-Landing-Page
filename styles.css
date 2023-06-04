@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    background-color: #eee;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    z-index: 100;
+  }
+  
+  #header-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+  }
+  
+  #nav-bar {
+    display: flex;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin-left: 10px;
+  }
+  
+  main {
+    margin-top: 75px;
+    padding: 20px;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  #form {
+    margin-top: 20px;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #submit {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .grid {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius:10px;
+  }
+  
+  .icon {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .desc {
+    text-align: center;
+  }
+  
+  #how-it-works {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #video {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+  }
+  
+  #pricing {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .product {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    list-style-position: inside;
+  }
+  
+  .level {
+    background-color: #ddd;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .product > ol > li {
+    padding: 5px;
+  }
+  
+  .product > button {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #eee;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  footer span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+  
+    #nav-bar {
+        flex-direction: column;
+    }
+  
+    #header-img {
+        margin-bottom: 10px;
+    }
+  
+    #hero {
+        padding: 50px 0;
+    }
+  
+    #email {
+        width: 100%;
+    }
+  
+    #features .grid {
+        width: 100%;
+    }
+  
+    #pricing .product {
+        width: 100%;
+    }
+  }
